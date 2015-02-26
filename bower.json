@@ -6,7 +6,6 @@
   ],
   "description": "",
   "dependencies": {
-    "jquery": "~1.11.1",
     "angular-spinner": "~0.4.0",
     "angular-mocks": "~1.2.24"
   },
@@ -14,9 +13,13 @@
     "q": "1.0.1"
   },
   "version": "1.0",
-  "main": ["loading.js", "demo.html"],
+  "main": [
+    "loading.js",
+    "demo.html"
+  ],
   "ignore": [
     "**/.*",
     "node_modules",
     "components"
-  ]}
+  ]
+}
