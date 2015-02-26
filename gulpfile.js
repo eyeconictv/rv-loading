@@ -16,13 +16,11 @@ var gulp = require("gulp"),
     factory = require("widget-tester").gulpTaskFactory,
     //Test files
     testFiles = [
-      "components/jQuery/dist/jquery.js",
       "components/q/q.js",
       "components/angular/angular.js",
       "components/angular-mocks/angular-mocks.js",
       "components/angular-spinner/angular-spinner.js",
       "components/spin.js/spin.js",
-      "components/spin.js/jquery.spin.js",
       "loading.js",
       "tests.js"
     ],
