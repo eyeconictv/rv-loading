@@ -1,3 +1,6 @@
+## DEPRECATED
+Use: https://github.com/Rise-Vision/common-header/tree/master/src/js/components/loading
+
 angular-spinner
 ===============
 
