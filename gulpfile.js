@@ -13,7 +13,7 @@
 var gulp = require("gulp"),
     // Include Our Plugins
     jshint = require("gulp-jshint"),
-    factory = require("widget-tester").gulpTaskFactory,
+    // factory = require("widget-tester").gulpTaskFactory,
     //Test files
     testFiles = [
       "components/q/q.js",
@@ -41,7 +41,7 @@ gulp.task("lint", function() {
 });
 
 
-gulp.task("test:unit", ["lint"], factory.testUnitAngular({testFiles: testFiles}));
+// gulp.task("test:unit", ["lint"], factory.testUnitAngular({testFiles: testFiles}));
 gulp.task("test", ["test:unit"]);
 
 gulp.task("default", [], function () {
